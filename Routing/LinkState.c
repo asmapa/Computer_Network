@@ -12,7 +12,7 @@ int main()
     scanf("%d", &ar);
 
     printf("\nEnter the distance matrix values:\n");
-    for (i = 0; i < ar; i++)
+    for (int i = 0; i < ar; i++)
     {
         for (j = 0; j < ar; j++)
         {

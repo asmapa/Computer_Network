@@ -3,7 +3,7 @@
 #include <sys/socket.h>
 #include <arpa/inet.h>
 #include <unistd.h>
-#include<ctype.h> // For close()
+#include <ctype.h> 
 
 void capitalize(char *str)
 {
