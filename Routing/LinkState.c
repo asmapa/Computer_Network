@@ -66,7 +66,6 @@ int main()
 
     for (t = 0; t < ar; t++)
     {
-        printf("\n%d -> %d: Path taken: %d", srcr, t, last[t]);
         printf("\nShortest path cost: %d", dist[t]);
     }
 

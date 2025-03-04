@@ -20,7 +20,7 @@ void remove_client(int sock)
     {
         if (clients[i] == sock)
         {
-            // Shift remaining clients down
+            
             for (int j = i; j < n - 1; j++)
             {
                 clients[j] = clients[j + 1];

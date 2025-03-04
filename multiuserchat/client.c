@@ -40,8 +40,8 @@ int main(int argc, char *argv[])
     struct sockaddr_in server_addr;
     char client_name[NAME_SIZE];
 
-    strncpy(client_name, argv[1], NAME_SIZE - 1);
-    client_name[NAME_SIZE - 1] = '\0'; // Ensure null termination
+    strcpy(client_name, argv[1]);
+    
 
     // Create socket
     sock = socket(AF_INET, SOCK_STREAM, 0);
